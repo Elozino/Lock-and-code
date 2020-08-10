@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ffc107;
+}
+.frame{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #28a745;
+    max-width: 300px;
+    width: 100%;
+    padding: 20px;
+    padding-right: 30px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: -5px 5px 20px black;    
+}
+div>h2{
+    text-align: center;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+label{
+    letter-spacing: 2px;
+    font-family: 'Times New Roman', Times, serif;
+    font-variant: small-caps;
+}
+.input{
+    margin-bottom: 10px;
+    width: 100%;
+    border: 2px dash #e0e0e0;
+    border-radius: 4px;
+    padding: 5px;
+}
+.button{
+    border: none;
+    margin-top: 20px;
+    padding: 5px;
+    width: 100%;
+    background-color: #ffc107;
+    color: gray;
+    border-radius: 25px;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+/* JS styling*/
+#error_message{
+    padding: 0px;
+    background-color: rgb(185, 28, 28);
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 14px;
+    transition: all 0.5s ease;
+}
