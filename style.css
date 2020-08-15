@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: bisque;
+    text-align: center;
+    
+}
+.frame{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #29335c;
+    padding: 30px;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+}
+h2{
+    color: whitesmoke;
+    font-variant: small-caps;
+    transform: scale(1, 2);
+}
+.quote{
+    padding: 80px;
+    width: 100%;
+    background-color: #773344;
+    margin: 30px 0px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: -4px 4px 10px black;
+    color: whitesmoke;
+    font-size: 25px;
+    font-variant: small-caps;
+}
+button{
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    width: 100px;
+    letter-spacing: 1px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-variant: small-caps;
+    cursor: pointer;
+}
+footer{
+    margin-top: 10px;
+}
+footer>div{
+    text-align: center;
+    margin-top: 5px;
+}
